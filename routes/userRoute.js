@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const user = require("../models/userModel");
+//const user = require("../models/userModel");
 const {
   getUsers,
   addUser,
