@@ -6,7 +6,7 @@ const {
   addUser,
   updateUser,
   getUser,
-} = require("../../backend/controllers/userController");
+} = require("../controllers/userController");
 router.get("/", getUsers);
 router.get("/getUser/:userName", getUser);
 router.post("/addUser", addUser);
