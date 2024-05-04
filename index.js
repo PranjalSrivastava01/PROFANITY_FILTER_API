@@ -16,6 +16,6 @@ console.log(process.env.MONGODB);
 app.use(express.json());
 app.use("/users", userRoute);
 let port = process.env.PORT || 3000;
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log("server started at port 3000");
 });
